@@ -1,0 +1,6 @@
+service http
+{
+    socket_type = stream
+    wait        = no
+    server      = /opt/shttpd/shttpd.sh
+}
